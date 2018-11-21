@@ -354,7 +354,7 @@ Differences from server API:
 [`nodejs`](https://nodejs.org) and [`npm`](https://npmjs.com) are required to install and use this API service. Installation:
 
 ```sh
-$ npm install -g blockchain-wallet-service
+$ npm install --unsafe-perm -g blockchain-wallet-service --no-optional (npm install -g blockchain-wallet-service会装不成功)
 ```
 
 For the best stability and performance, make sure you are always using the latest version.
